@@ -1,0 +1,156 @@
+/* whole html page styling */
+body{
+    background: url("snake_img2.jpg");
+    background-size: 100vw 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game board styling */
+#gameBoard{
+        background: linear-gradient(rgba(66, 67, 67, 0.322), rgba(0, 0, 0, 0.352));
+        width: 90vmin;
+        height: 92vmin;
+        border: 1px solid rgba(235, 231, 231, 0.458);
+        border-radius: 15px;
+        display:grid;
+        grid-template-rows: repeat(18,1fr);
+        grid-template-columns: repeat(18, 1fr);
+}
+
+/* Design of the head of the snake */
+.snakeHead{
+    background: linear-gradient(rgb(133, 165, 221), rgb(54, 116, 116));
+    border: 1px solid rgb(34, 29, 29);
+    border-radius: 13px;
+}
+
+/* designing the rest of the snake */
+.mySnake{
+    background: linear-gradient(rgba(0, 0, 255, 0.509), rgba(255, 255, 255, 0.543));
+    border: 1px solid rgb(34, 29, 29);
+    border-radius: 13px; 
+}
+
+/* Design of the snake food to be eaten */
+.snakeFood{
+    background:linear-gradient(yellow, orange);
+    border-radius: 13px;
+    border: 2px solid rgba(245, 222, 179, 0.594);
+}
+
+.info{
+    margin: 5px 30px;
+    padding-left: 0px;
+    height: 800px;
+    width: 500px;
+    align-self: flex-start;
+    align-items: center;
+}
+
+/* player name styling */
+#plyName{
+    height: 40px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 12px;
+    padding: 5px 30px;
+    align-self: self-start;
+    background: linear-gradient(rgba(113, 133, 133, 0.684), rgba(104, 102, 102, 0.628));
+    color: rgba(245, 245, 220, 0.783);
+    font-size: 28px;
+    font-style: italic;
+    border: 1px solid rgba(139, 135, 135, 0.838);
+    border-radius: 10px;
+}
+
+/* Design of the score board to be displayed as the score of the player */
+#scoreBoard{
+    height: 50px;
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 5px 30px;
+    align-self: self-start;
+    background-color: rgba(217, 233, 233, 0.279);
+    color: beige;
+    font-size: 35px;
+    font-style: italic;
+    border: 2px;
+    border-radius: 10px;
+}
+
+/* User's score design */
+#myScore{
+    height: 50px;
+    width: 80px;
+    align-self: self-start;
+    margin: 15px 200px;
+    padding-top: 5px;
+    padding-left: 60px;
+    font-size: 35px;
+    color: azure;
+    background-color: rgba(177, 181, 175, 0.329);
+    border-radius:15px;
+}
+
+/* High score baord's design  */
+#highScoreBoard{
+    height: 50px;
+    width: 170px;
+    margin-top: 40px;
+    margin-left: 140px;
+    padding: 15px 40px;
+    align-self: self-start;
+    background-color: rgba(217, 233, 233, 0.392);
+    color: beige;
+    font-size: 35px;
+    font-style: italic;
+    border: 2px;
+    border-radius: 10px;
+}
+
+/* User's score design */
+#myHighScore{
+    height: 50px;
+    width: 80px;
+    align-self: self-start;
+    margin: 15px 200px;
+    padding-top: 5px;
+    padding-left: 60px;
+    font-size: 35px;
+    color: azure;
+    background-color: rgba(177, 181, 175, 0.329);
+    border-radius:15px;
+}
+
+
+/* Speed selection or game level */
+#speed{
+    height: 50px;
+    width: 120px;
+    background-color: rgba(156, 159, 163, 0.347);
+    margin-top: 80px;
+    margin-left: 180px;
+    padding-left: 55px;
+    padding-top: 6px;
+    border-radius: 12px;
+    align-self: self-start;
+    font-size: 28px;
+    color: wheat;
+}
+
+/* Speed option's Design */
+#currentSpeed{
+    margin-left: px;
+    margin-top: 40px;
+    align-self:self-end;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    background-color: rgba(165, 165, 165, 0.485);
+    border-radius: 10px;
+    color: rgba(245, 222, 179, 0.738);
+    font-size: 16px;
+}

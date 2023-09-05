@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Snake</title>
+    <link rel="stylesheet" href="style_page1.css">
+    <script src="page1.js"></script>
+</head>
+<body>
+    <div class="welcome_page">
+      <div class="heading">
+            <h3>Welcome To Hungry Snake!!!</h3>
+        </div>    
+        
+        <div class="logBox">
+          <div id="head">
+            Enter your details!
+          </div>
+          <div id="info">
+           <form id="credentials" method="post" action="page1.js">
+            <div class="contents">
+              <div id="uName">
+                Username : <input type="text" name="name" id="name">
+              </div>  
+              <div class="gender">
+                Gender : 
+                <input type="radio" name="gender" id="male" class="gender" value="Male">
+                Male    
+                <input type="radio" name="gender" id="female" class="gender" value="Female">
+                Female
+              </div>
+              <div id="age">
+                Age : <input type="number" name="age" id="myAge">
+              </div>
+                <div id="start">
+                  <buttton type="submit" value="Let's Play" id="myStart" onclick="storeAndRedirect()">
+                      Let's Play!
+                  </buttton>
+                    </buttton>
+                </div>
+              
+              
+            </div>
+            
+           </form>   
+          </div>
+        </div>
+    </div>
+ 
+
+
+</body>
+</html>

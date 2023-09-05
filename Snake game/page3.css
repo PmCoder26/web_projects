@@ -1,0 +1,62 @@
+body{
+    background-image: url("go1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+.scoreBox{
+    margin: 100px 270px;
+    background: linear-gradient(rgba(2, 9, 86, 0.758), rgba(49, 162, 211, 0.618), rgba(19, 3, 128, 0.556));
+    height: 600px;
+    width: 900px;
+    align-self: center;
+    border: 0.5px solid rgb(114, 111, 111);
+    border-radius: 50px 50px;
+}
+
+#greetings{
+    margin: 30px 30px;
+    padding: 15px 15px;
+    font-size: 38px;
+    font-style: italic;
+    color: rgb(250, 250, 250);
+    border: 0.2px solid rgb(195, 176, 176);
+    border-radius: 50px 40px;
+    background: linear-gradient(rgba(6, 70, 197, 0.621), rgba(234, 235, 235, 0.61));
+}
+
+#plyScore{
+    margin: 100px 180px;
+    padding: 15px 120px;
+    font-size: 36px;
+    color: antiquewhite;
+    align-items: center;
+    border: 0.5px solid white;
+    border-radius: 300px 150px;
+    background: linear-gradient(rgba(152, 211, 214, 0.713), rgb(49, 102, 207));
+}
+
+/* restart button */
+#restart{
+    margin: 20px 370px;
+    height: 43px;
+    width: 150px;
+    background: linear-gradient(rgb(140, 140, 231), rgba(182, 176, 176, 0.646));
+    border-radius: 20px 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* exit button */
+#exit{
+    margin: 20px 370px;
+    height: 43px;
+    width: 150px;
+    background: linear-gradient(rgb(140, 140, 231), rgba(182, 176, 176, 0.646));
+    border-radius: 20px 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
